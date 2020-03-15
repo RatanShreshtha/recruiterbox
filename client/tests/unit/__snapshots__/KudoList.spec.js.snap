@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KudoList.vue matches snapshot 1`] = `
+<b-row-stub tag="div" cols="3">
+  <b-col-stub tag="div"></b-col-stub>
+  <b-col-stub tag="div">
+    <h1 class="text-center"></h1>
+  </b-col-stub>
+  <b-col-stub tag="div"></b-col-stub>
+  <b-col-stub tag="div"></b-col-stub>
+  <b-col-stub tag="div">
+    <!---->
+  </b-col-stub>
+  <b-col-stub tag="div"></b-col-stub>
+</b-row-stub>
+`;

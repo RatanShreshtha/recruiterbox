@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm.vue User is not Logged In matches snapshot 1`] = `
+<b-form-stub>
+  <b-form-group-stub id="input-group-1" label="Your Username:" labelFor="input-1" description="We'll never share your username with anyone else." feedbackAriaLive="assertive">
+    <b-form-input-stub id="input-1" required="required" value="" placeholder="Enter username" debounce="0" type="text"></b-form-input-stub>
+  </b-form-group-stub>
+  <b-form-group-stub id="input-group-2" label="Your Password:" labelFor="input-2" feedbackAriaLive="assertive">
+    <b-form-input-stub id="input-2" required="required" value="" placeholder="Enter password" debounce="0" type="password"></b-form-input-stub>
+  </b-form-group-stub>
+  <b-button-stub target="_self" event="click" routerTag="a" variant="primary" type="submit" tag="button" class="mr-2">Login</b-button-stub>
+</b-form-stub>
+`;

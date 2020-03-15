@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KudoForm.vue matches snapshot 1`] = `
+<b-form-stub>
+  <b-form-group-stub id="input-group-1" label="User:" labelFor="input-1" feedbackAriaLive="assertive">
+    <b-form-select-stub id="input-1" required="required" options="[object Object]" valueField="value" textField="text" htmlField="html" disabledField="disabled" labelField="label" optionsField="options" selectSize="0"></b-form-select-stub>
+  </b-form-group-stub>
+  <b-form-group-stub id="input-group-2" label="Title:" labelFor="input-2" feedbackAriaLive="assertive">
+    <b-form-input-stub id="input-2" required="required" value="" placeholder="Enter title" debounce="0" type="text"></b-form-input-stub>
+  </b-form-group-stub>
+  <b-form-group-stub id="input-group-3" label="description:" labelFor="input-3" feedbackAriaLive="assertive">
+    <b-form-textarea-stub id="input-3" value="" placeholder="Enter description..." debounce="0" rows="7" maxRows="10" wrap="soft"></b-form-textarea-stub>
+  </b-form-group-stub>
+  <b-button-stub target="_self" event="click" routerTag="a" variant="primary" type="submit" tag="button" class="mr-2">Give Kudo</b-button-stub>
+</b-form-stub>
+`;

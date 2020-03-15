@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar.vue User is Logged In matches snapshot 1`] = `
+<b-navbar-stub tag="nav" type="light" variant="light" toggleable="lg">
+  <b-navbar-brand-stub href="/" target="_self" event="click" routerTag="a" tag="div">Recruiterbox Kudos</b-navbar-brand-stub>
+  <b-navbar-toggle-stub label="Toggle navigation" target="nav-collapse"></b-navbar-toggle-stub>
+  <b-collapse-stub id="nav-collapse" isNav="true" tag="div">
+    <b-navbar-nav-stub tag="ul">
+      <b-nav-item-stub href="/kudos-received" target="_self" event="click" routerTag="a" id="kudos-received">Kudos Received</b-nav-item-stub>
+      <b-nav-item-stub href="/kudos-given" target="_self" event="click" routerTag="a" id="kudos-given">Kudos Given</b-nav-item-stub>
+    </b-navbar-nav-stub>
+    <b-navbar-nav-stub tag="ul" class="ml-auto">
+      <b-navbar-nav-stub tag="ul">
+        <b-nav-item-stub href="/" target="_self" event="click" routerTag="a">
+          I am Root (root)
+        </b-nav-item-stub>
+        <b-nav-item-stub href="/kudo-add" target="_self" event="click" routerTag="a">
+          <b-button-stub target="_self" event="click" routerTag="a" size="sm" variant="outline-info" type="button" tag="button">
+            Give Kudo
+          </b-button-stub>
+        </b-nav-item-stub>
+        <b-nav-item-stub href="#" target="_self" event="click" routerTag="a" class="mt-auto">
+          <b-button-stub target="_self" event="click" routerTag="a" size="sm" variant="outline-danger" type="button" tag="button" id="logout">
+            Log Out
+          </b-button-stub>
+        </b-nav-item-stub>
+      </b-navbar-nav-stub>
+    </b-navbar-nav-stub>
+  </b-collapse-stub>
+</b-navbar-stub>
+`;
+
+exports[`Navbar.vue User is not Logged In matches snapshot 1`] = `
+<b-navbar-stub tag="nav" type="light" variant="light" toggleable="lg">
+  <b-navbar-brand-stub href="/" target="_self" event="click" routerTag="a" tag="div">Recruiterbox Kudos</b-navbar-brand-stub>
+  <b-navbar-toggle-stub label="Toggle navigation" target="nav-collapse"></b-navbar-toggle-stub>
+  <b-collapse-stub id="nav-collapse" isNav="true" tag="div">
+    <!---->
+    <b-navbar-nav-stub tag="ul" class="ml-auto">
+      <!---->
+    </b-navbar-nav-stub>
+  </b-collapse-stub>
+</b-navbar-stub>
+`;

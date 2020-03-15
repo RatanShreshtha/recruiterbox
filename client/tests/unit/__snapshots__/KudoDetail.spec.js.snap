@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KudoDetail.vue matches snapshot 1`] = `
+<b-container-stub tag="div" fluid="true" class="p-4">
+  <b-jumbotron-stub headerTag="h1" headerLevel="3" leadTag="p" tag="div"></b-jumbotron-stub>
+</b-container-stub>
+`;
